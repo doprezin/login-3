@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: none;
+    background-image: linear-gradient(to right, white 0, white 50%, black 50%);
+}
+
+.container-register{
+    margin-left: 200px;
+}
+
+.container-login h1{
+    font-family: 'Rubik Bubbles', sans-serif;
+    color: #6495ed;
+    margin-bottom: 25px;
+}
+
+.container-login h2{
+    margin-bottom: 5px;
+    margin-top: -9px;
+}
+
+.container-login .up-text{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.container-login input{
+    width: 100%;
+    height: 5vh;
+    font-size: 15px;
+    border: solid 1px color gray;
+    border-radius: 6px;
+    
+}
+
+.container-login input::placeholder{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    bottom: 3px;
+}
+
+.container-login input:focus{
+    color: #000;
+}
+
+.container-login input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.email-login{
+    margin-bottom: 10px;
+}
+
+.btn-login{
+    background-color: #6495ed;
+    width: 100%;
+    height: 38px;
+    margin-top: 15px;
+    border: solid 1px #6495ed;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover{
+    background-color: #1a65f0;
+}
+
+.container-login .or{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+/*.or::before,
+.or::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.or::before{
+    left: 0;
+}
+
+.or::after{
+    right: 0;
+} */
+
+.google-login i{
+    position: relative;
+    font-size: 20px;
+    left: -10%;
+    bottom: -8%;
+}
+
+.google-login{
+    font-weight: 600;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #6495ed;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 15px;
+}
+
+.google-login:hover{
+    background-color: #6495ed;
+}
+
+.apple-login i{
+    position: relative;
+    font-size: 20px;
+    left: -15%;
+    bottom: -8%;
+}
+
+.apple-login{
+    font-weight: 600;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 1px #6495ed;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.apple-login:hover{
+    background-color: #6495ed;
+}
+
+.container-login .botoes-sociais{
+    text-align: center;
+}
+
+.downside-login{
+    position: absolute;
+    top: 79%;
+}
+
+.container-login .downside-login .forgot{
+    font-weight: 600;
+    color: #000;
+}
+
+.container-login .downside-login a{
+    color: #6495ed;
+    text-decoration: none;
+}
+
+.container-login .downside-login a:hover{
+    text-decoration: underline;
+}
+
+.container-register h1{
+    font-family: 'Rubik Bubbles', sans-serif;
+    color: #6495ed;
+    margin-bottom: 25px;
+}
+
+.container-register h2{
+    margin-bottom: 5px;
+    margin-top: -9px;
+    color: white;
+}
+
+.container-register .up-text{
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.container-register .enter-register input{
+    width: 100%;
+    height: 5vh;
+    font-size: 15px;
+    border: solid 1px gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.container-register input::placeholder{
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    bottom: 3px;
+}
+
+.container-register label input{
+    position: relative;
+    margin-right: 2px;
+    top: 1px;
+}
+
+.container-register label{
+    color: white;
+}
+
+.container-register input:focus{
+    color: #000;
+}
+
+.container-register input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.btn-register{
+    background-color: #6495ed;
+    width: 100%;
+    height: 38px;
+    margin-top: 15px;
+    border: solid 1px #6495ed;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-register:hover{
+    background: #1a65f0;
+}
+
+.container-register .or{
+    position: relative;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.google-login i{
+    position: relative;
+    font-size: 20px;
+    left: -10%;
+    bottom: -8%;
+}
+
+.container-register .botoes-sociais{
+    text-align: center;
+}
